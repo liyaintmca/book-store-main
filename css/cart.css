@@ -1,0 +1,110 @@
+body{
+    background-image: url("../img/regbg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.logo{
+    display: inline-block;
+    margin: 20px;
+}
+
+.logo img{
+    height: 30px;
+    position: absolute;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+.menu{
+    display: inline-block;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+
+.active a{
+    text-decoration: underline;
+}
+
+.nav-bar li,a{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 17px;
+    color: white;
+}
+
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+
+.search{
+    position: relative;
+    float:right;
+}
+
+.search img{
+    height: 35px;
+    margin: 20px;
+}
+
+.lines{
+    margin-left: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(225,225,225,.8);
+}
+
+.first{
+    background: rgba(225,225,225,.9);
+    width: 92%;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.first img{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.buy{
+    display: inline-block;
+    background: black;
+    margin-left: 50px;
+    margin-top: 15%;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.buy a{
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.title{
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.disc{
+    display: inline-block;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 50px;
+    width:600px;
+}

@@ -1,0 +1,67 @@
+body{
+    background: rgba(0,0,0,.9);
+}
+
+.left{
+    display: inline-block;
+    width: 50%;
+}
+
+.left a{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.left p{
+    color: white;
+    text-align:center;
+    width: 200px;
+    margin-left: 29%;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.right{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    font-family: sans-serif;
+}
+
+.pay{
+    margin-top: 40px;
+}
+
+.right input[name="name"],.right input[name="number"]{
+    height: 40px;   
+    width: 400px;
+    margin-top: 10px;
+}
+
+.right input[name="date"],.right input[name="cvc"]{
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.right input[name="submit"]{
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background: #87ceeb;
+}
+
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    text-align: center;
+}

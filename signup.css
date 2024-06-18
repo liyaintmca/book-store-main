@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Poppins',sans-serif;
+}
+section
+{
+ position:relative;
+ width:100%;
+ height:100vh;
+ display:flex;
+}
+body
+{
+ background-color: rgb(255, 255, 255);
+ scroll-behavior: unset;
+}
+.contentbx
+{
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ width:50%;
+ height:100%;
+}
+.formBx
+{
+ width:50%;
+}
+h2
+{
+ color:#815490;
+ font-weight: 600;
+ font-size:1.5em;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+ border-bottom: 4px solid #e0356e;
+
+ display:inline-block;
+ letter-spacing: 2px;
+}
+.inputBx
+{
+ margin-bottom: 20px;
+}
+section .contenbx .formBx .inputBx span
+{
+ font-size: 16px;
+ margin-bottom: 5px;
+ display:inline-block;
+ color:#4d6571;
+ font-weight: 300;
+ font-size: 16px;
+ letter-spacing: 1px;
+}
+
+.inputBx input
+{
+ width:100%;
+ padding:10px 20px;
+ outline:none;
+ font-weight: 400;
+ border:1px solid #4d6571;
+ font-size: 16px;
+ letter-spacing: 1px;
+ color:#607d8b;
+ background: transparent;
+ border-radius: 30px;
+}
+.inputBx input[type="submit"]
+{
+ background-color:#865086;
+ color:#fff;
+ outline:none;
+ border:none;
+ font-weight:500;
+ cursor:pointer;
+}
+
+.inputBx input[type="submit"]:hover
+{
+ background-color: #674174;
+}
+.formBx .remember
+{
+ margin-bottom: 10px;
+ color:#425c69;
+ font-weight: 400;
+ font-size: 14px;
+}
+.formBx .inputBx p
+{
+ color:#4a7388;
+}
+.formBx .inputBx p a
+{
+ color:#9a5f90;
+}
+.red-text
+{
+ color:rgb(237, 0, 0);
+}
